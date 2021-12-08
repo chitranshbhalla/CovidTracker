@@ -264,36 +264,6 @@ components:
       scheme: bearer
       bearerFormat: JWT
   schemas:
-    Register:
-      x-skaffolder-id: 61af930a5db62a1b83fc1cfc
-      x-skaffolder-id-db: 61af925f5db62a1b83fc1c6f
-      x-skaffolder-id-entity: 61af930a5db62a1b83fc1cf8
-      x-skaffolder-url: /register
-      properties:
-        _id:
-          type: string
-          x-skaffolder-required: true
-        Age:
-          type: number
-          x-skaffolder-id-attr: 61af930a5db62a1b83fc1cfa
-          x-skaffolder-type: Number
-          x-skaffolder-required: true
-        Location:
-          type: string
-          x-skaffolder-id-attr: 61af930a5db62a1b83fc1cfb
-          x-skaffolder-type: String
-          x-skaffolder-required: true
-        Name:
-          type: string
-          x-skaffolder-id-attr: 61af930a5db62a1b83fc1cf9
-          x-skaffolder-type: String
-          x-skaffolder-required: true
-      x-skaffolder-relations: 
-      required:
-        - _id
-        - Age
-        - Location
-        - Name
     User:
       x-skaffolder-id: 61af92605db62a1b83fc1c78
       x-skaffolder-id-db: 61af925f5db62a1b83fc1c6f

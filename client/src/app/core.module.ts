@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 /* START MY SERVICES IMPORTS*/
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
-import { RegisterService } from './services/register.service';
 import { UserService } from './services/user.service';
 
 /* END MY SERVICES IMPORTS*/
@@ -16,7 +15,6 @@ import { AuthInterceptor } from './security/auth.interceptor';
   providers: [
     /* START PROVIDERS */
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
-    RegisterService,
     UserService,
  /* END PROVIDERS */
 

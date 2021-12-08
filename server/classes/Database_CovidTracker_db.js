@@ -7,7 +7,6 @@ import properties from "../properties.js";
 
 // Start Import Models
 
-import RegisterModel from "../models/CovidTracker_db/RegisterModel";
 import UserModel from "../models/CovidTracker_db/UserModel";
 
 // End Import Models
@@ -24,7 +23,6 @@ class Database {
 
     // Start Init Models
 
-		RegisterModel.init();
 		UserModel.init();
  // End Init Models
   }

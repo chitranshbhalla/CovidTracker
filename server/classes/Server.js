@@ -27,7 +27,6 @@ import SecurityController from "../controllers/SecurityController";
 import Database_CovidTracker_db from "./Database_CovidTracker_db.js";
 
 // Controllers
-import RegisterController from "../controllers/CovidTracker_db/RegisterController";
 import UserController from "../controllers/CovidTracker_db/UserController";
 
 // End Import Controllers
@@ -109,7 +108,6 @@ class Server {
     SecurityController.init(router);
 
     // Start Init Controllers
-		RegisterController.init(router);
 		UserController.init(router);
 		 // End Init Controllers
 
