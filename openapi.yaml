@@ -310,11 +310,13 @@ components:
       x-skaffolder-name: CovidTracker_db
   x-skaffolder-page:
     - x-skaffolder-id: 61af925f5db62a1b83fc1c77
-      x-skaffolder-name: Home
-      x-skaffolder-url: /home
-      x-skaffolder-template: 
-      x-skaffolder-resource: 
-      x-skaffolder-services: 
+      x-skaffolder-name: UserList
+      x-skaffolder-url: /users
+      x-skaffolder-template: List_Crud
+      x-skaffolder-resource: 61af92605db62a1b83fc1c78
+      x-skaffolder-services:
+        - 61af92605db62a1b83fc1c7d
+        - 61af92605db62a1b83fc1c82
       x-skaffolder-nesteds: 
       x-skaffolder-links: 
       x-skaffolder-roles: []
